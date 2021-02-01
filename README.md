@@ -1,0 +1,2 @@
+# MLR-Project
+The program also does Backward Elimination to determine the best independent variables to fit into the regressor object of the LinearRegression class.  The program uses the statsmodels.formula.api library to get the P values of the independent variables. The variables with P values greater than the significant value ( which was set to 0.05 ) are removed. The process is continued till variables with the lowest P values are selected are fitted into the regressor ( the new dataset of independent variables are called X_Optimal ).
